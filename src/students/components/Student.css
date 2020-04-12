@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+	font-family: arial,tahoma,sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	direction: ltr;
+    background: white;
+} 
+
+.hello{
+	padding-right: 190px;
+}
+button .logout{
+	padding-left: 40px;
+}
+
+form{
+    margin: 0 auto 0 auto;
+	width: 500px;
+    height: 500px;
+	height: auto;
+	overflow: hidden;
+	background: white;
+	border-radius: 10px;
+}
+
+form label {
+	font-size: 20px;
+	color: darkgray;
+}
+
+form label,
+form input {
+	float: left;
+    clear: both;
+}
+
+form input {
+	margin: 15px 0;
+	padding: 15px 10px;
+	width: 100%;
+	outline: none;
+	border: 1px solid #bbb;
+	border-radius: 20px;
+	display: inline-block;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+    -webkit-transition: 0.2s ease all;
+	   -moz-transition: 0.2s ease all;
+	    -ms-transition: 0.2s ease all;
+	     -o-transition: 0.2s ease all;
+	        transition: 0.2s ease all;
+}
+
+form input[type=text]:focus,
+form input[type="password"]:focus {
+	border-color: rgb(155, 55, 64);
+}
+
+button[type=submit] {
+	padding: 15px 30px;
+	width: auto;
+	background: #c02f1cb2;
+	border: none;
+	color: white;
+	cursor: pointer;
+	display: inline-block;
+	float: right;
+	clear: right;
+	-webkit-transition: 0.2s ease all;
+	   -moz-transition: 0.2s ease all;
+	    -ms-transition: 0.2s ease all;
+	     -o-transition: 0.2s ease all;
+	        transition: 0.2s ease all;
+}
+
+button[type=submit]:hover {
+	opacity: 0.8;
+}
+
+button[type=submit]:active {
+	opacity: 0.4;
+}
+
+h2{
+	font-family: cursive;
+	font-size: 20px;
+	/* padding-left: 200px; */
+	color: rgb(83, 80, 80);
+}
+
+p{
+	font-size: 18px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: black;
+	padding-bottom: 8px;
+}
+
+.bot{
+	height: 50px;
+	width: 200px;
+	display: list-item;
+	font-size: 15px;
+}
+
+@media only screen and (min-width: 300px) {
+    form{
+        margin: 0 auto 30px auto;
+        padding: 30px;
+        width: 250px;
+        height: 400px;
+        overflow: hidden;
+        background:rgba(223, 216, 216, 0.397);
+        border-radius: 10px;
+    }
+    form label {
+        font-size: 17px;
+    }
+    .logo {
+        margin: 0 auto;
+        width: 200px;
+        font-family: 'Lily Script One', cursive;
+        font-size: 50px;
+        font-weight: bold;
+        text-align: center;
+    }
+    button[type=submit] {
+        padding: 10px 16px;
+	}
+	.bot{
+		height: 50px;
+		width: 200px;
+		display: list-item;
+		font-size: 15px;
+	}
+
+}

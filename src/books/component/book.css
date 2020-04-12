@@ -1,0 +1,135 @@
+@media only screen and (min-width: 1000px) {
+.book img{
+    width: 200x;
+    height: 250px;
+    border-radius: 10px; 
+	margin: -30px 20px;
+	padding-left: 20px;
+} 
+
+div .book{
+    width: 800px;
+	height: 300px;
+	background: rgba(14, 105, 133, 0.301);
+	margin: 15px 10px;
+	padding: 15px;
+	box-shadow: 0 0 50px -20px #000;
+    border-radius: 30px;
+    font-family: Sans-Serif; 
+    display: block;
+    color: black;
+	text-align: center;
+	position: relative;
+	left: 300px;
+}
+
+h3{
+	color: rgb(158, 35, 35);
+	height: 30px;
+	font-size: 20px;
+}
+
+button{
+	padding: 15px 30px;
+	width: auto;
+	background: #c02f1cb2;
+	border: none;
+	color: white;
+	cursor: pointer;
+	display: block;
+	clear: right;
+	-webkit-transition: 0.2s ease all;
+	   -moz-transition: 0.2s ease all;
+	    -ms-transition: 0.2s ease all;
+	     -o-transition: 0.2s ease all;
+	        transition: 0.2s ease all;
+}
+
+button .upbutton{
+	width: 100px;
+	height: 50px;
+	font-size: 10px;
+	padding-top: 20px;
+	
+}
+
+a{
+	padding-bottom: 20px;
+}
+
+
+button:hover {
+	opacity: 0.8;
+}
+
+button:active {
+	opacity: 0.4;
+}
+}
+
+@media only screen and (min-width: 300px) {
+	.book img{
+		width: 110px;
+		height: 150px;
+		border-radius: 20px; 
+		margin: 10px 10px;
+	}
+	
+	.book{
+		background: rgba(14, 105, 133, 0.301);
+		box-shadow: 0 0 50px -20px #000;
+		border-radius: 20px;
+		font-family: Sans-Serif; 
+		color: rgb(158, 35, 35);
+		text-align: center;
+		width: 300px;
+	    height: 350px;
+	    margin: 20% auto 0 auto;
+	    -webkit-transform: translatez(-50px);
+	    padding: 2%; 
+		line-height: 150%; 
+	}
+	
+	button{
+		padding: 15px 30px;
+		width: auto;
+		background: #c02f1cb2;
+		border: none;
+		color: white;
+		cursor: pointer;
+		display: inline-block;
+		clear: right;
+		/* float: left; */
+		-webkit-transition: 0.2s ease all;
+		   -moz-transition: 0.2s ease all;
+			-ms-transition: 0.2s ease all;
+			 -o-transition: 0.2s ease all;
+				transition: 0.2s ease all;
+	}
+
+	h3{
+		color: rgb(158, 35, 35);
+		height: 30px;
+		font-size: 20px;
+	}
+	
+	div .upbutton{
+		width: 100px;
+		height: 50px;
+		font-size: 15px;
+		padding-top: 10px;
+	}
+	
+	a{
+		padding-bottom: 8px;
+		font-size: 20px;
+	}
+
+	button:hover {
+		opacity: 0.8;
+	}
+	
+	button:active {
+		opacity: 0.4;
+	}
+}
